@@ -1,0 +1,12 @@
+{
+    "name": "slint-nodejs-material",
+    "version": "1.0.0",
+    "main": "src/main.js",
+    "type": "module",
+    "dependencies": {
+        "slint-ui": "^1.12.0"
+    },
+    "scripts": {
+        "start": "node ."
+    }
+}
