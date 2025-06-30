@@ -4,10 +4,11 @@ let ui = slint.loadFile("ui/main.slint");
 let window = new ui.MainWindow();
 
 function color_item(name, red, green, blue, window) {
-    return ui.ListItem(
+    return new ui.ListItem(
         {
             text: name,
             avatar_background: {red: red, green: green, blue: blue},
+            avatar_foreground: {red: 0, green: 0, blue: 0, alpha: 0},
             action_icon: window.OutlinedIcons.share,
         }
     )
