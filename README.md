@@ -1,6 +1,6 @@
 # Material Components for Slint Node.js Template
 
-A template for a Node.js Application using Slint with [material components](https://github.com/slint-ui/material-components). Based on the material gallery. 
+A template for a Node.js Application using Slint with [material components](https://github.com/slint-ui/slint/tree/master/ui-libraries/material). Based on the material gallery. 
 
 ## About
 
@@ -8,11 +8,6 @@ This template helps you get started developing a JavaScript application with Sli
 for the user interface and the material component set. It demonstrates the integration between the `.slint`
 UI markup and JavaScript code, how to react to callbacks, get and set properties, and use of all available
 material components for Slint.
-
-## Disclaimer
-
-The material components are currently available as a technical preview. Some components are still missing and changes to the api
-are possible. We will inform as soon as the component set is read for release.
 
 ## Usage
 
